@@ -1,25 +1,24 @@
 <div id="setup-macosx-python" class="setup setup-macosx setup-python">
-  <h3>Mac OS X / Python</h3>
+  <h4>Mac OS X / Anaconda</h4>
 
   <p>
-    We recommend the all-in-one scientific Python installer
-    <a href="http://continuum.io/downloads.html">Anaconda</a>.
-    (Installation requires using the shell and if you aren't
-    comfortable doing the installation yourself just
-    download the installer and we'll help you at the boot
-    camp.)
+    You may be able to simply follow the on-screen installation 
+    prompts given by the package installer (as shown 
+    <a href="http://docs.continuum.io/anaconda/install.html#mac-install">here</a>).
+    If so, just note that you <em>do</em> want the package to automatically modify 
+    your bash profile to add anaconda to your <code>PATH</code>.
   </p>
 
+  <p>
+    If the package installer doesn't work or isn't available, you can
+    install Anaconda from the command line as follows:
+  </p>
   <ol>
-    <li>
-      Download the installer that matches your operating
-      system and save it in your home folder.
-    </li>
     <li>
       Open a terminal window.
     </li>
     <li>
-      Type <pre>bash Anaconda-</pre> and then press
+      Type <pre>bash ~/Downloads/Anaconda-</pre> and then press
       tab. The name of the file you just downloaded should
       appear.
     </li>
@@ -29,8 +28,8 @@
       screen press the down arrow to move down through the
       text. Type <code>yes</code> and press enter to approve
       the license. Press enter to approve the default
-      location for the files. Type <code>yes</code> and
-      press enter to prepend Anaconda to
+      location for the files (or enter an alternative location). 
+      Type <code>yes</code> and press enter to prepend Anaconda to
       your <code>PATH</code> (this makes the Anaconda
       distribution the default Python).
     </li>
